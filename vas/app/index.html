@@ -12,12 +12,10 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    
-<!--navigation bar-->
-<div class="container vasindexheader">
+<div class="container">
     <div class="row">
         <!--begin bg-carousel-->
-        <div id="bg-fade-carousel" class="carousel slide carousel-fade" data-ride="carousel">
+        <div id="bg-fade-carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="4500">
         <!-- Wrapper for slides -->
             <div class="carousel-inner">
                 <div class="item active">
@@ -34,43 +32,49 @@
         <!--end bg-carousel-->  
         <div class="container carousel-overlay text-center vaslogo">
             <h2>Växjö</h2>
-            <h1>S<span class="halfStyle" data-content="p">p</span>elförenin<span class="halfStyle" data-content="g">g</span></h1>
+            <h1>Spelförening</h1>
             <!-- <h1 class="shadow">Spelförening</h1> -->
         </div>
     </div>
-</div>
-
-<nav class="navbar navbar-default transparent navbar-static-top navbar-z-index" role="navigation" id="navbar-main">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navCollapse">
-                <span class="sr-only">Toggle Navigation</span>
-                <span class="fa fa-chevron-down"></span> Menu
-            </button>
-
-        </div>
-        <div class="collapse navbar-collapse navbar-right" id="navCollapse">
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Hem</a></li>
-                <li><a href="#">Om Oss</a></li>
-                <li><a href="#">Aktiviteter</a></li>
-                <li><a href="#">Galleri</a></li>
-                <li><a href="#">Kontaktuppgifter</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
-<!--end nav bar-->
-<div class="container">
     <div class="row">
-        <div class="col-md-10 col-md-offset-1">
-            <div class="row">
-                <h1>This is a text.</h1>  
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, tenetur? Repudiandae quia officiis soluta reiciendis dolore assumenda natus quaerat facere eum maxime molestiae, voluptatum distinctio hic suscipit aperiam quod ipsum!  
+        <!--navigation bar-->
+        <nav class="navbar navbar-default transparent navbar-static-top navbar-z-index" role="navigation" id="navbar-main">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navCollapse">
+                        <span class="sr-only">Toggle Navigation</span>
+                        <span class="fa fa-chevron-down"></span> Menu
+                    </button>
+
+                </div>
+                <div class="collapse navbar-collapse navbar-right" id="navCollapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Hem</a></li>
+                        <li><a href="#">Om Oss</a></li>
+                        <li><a href="#">Aktiviteter</a></li>
+                        <li><a href="#">Galleri</a></li>
+                        <li><a href="#">Kontaktuppgifter</a></li>
+                    </ul>
+                </div>
             </div>
+        </nav>
+        <!--end nav bar-->
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <h2>This is a text.</h2>  
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, tenetur? Repudiandae quia officiis soluta reiciendis dolore assumenda natus quaerat facere eum maxime molestiae, voluptatum distinctio hic suscipit aperiam quod ipsum!  
+        </div>
+        <div class="col-md-6">
+            <h2>This is another text in another column.</h2>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et repudiandae officiis nisi in itaque ullam ducimus. Quod vel suscipit beatae inventore numquam laboriosam consequuntur hic! Iste aspernatur culpa possimus consequatur?
+
+
         </div>
     </div>
-</div>
 
+
+
+</div>
 </body>
 </html>
