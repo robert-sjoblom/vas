@@ -1,2 +1,0 @@
-<div class="panel-heading">My Title</div>
-<div class="panel-body">This is a new text. EXCITING!</div>

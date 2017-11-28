@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,86 +12,187 @@
     <script src="js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-        <!-- FACEBOOK SHIT -->
-    <div id="fb-root"></div>
-    <script>(function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10&appId=1659526934089763';
-        fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
-        <!-- FACEBOOK SHIT END -->
-
-
-
-
-<div class="container">
-    <div class="row">
-        <!--begin bg-carousel-->
-        <div id="bg-fade-carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="4500">
-        <!-- Wrapper for slides -->
-            <div class="carousel-inner">
-                <div class="item active">
-                    <div class="slide1"></div>
+    <div class="container-fluid">
+        <!-- Carousel -->
+        <div class="row">
+            <!--begin bg-carousel-->
+            <div id="bg-fade-carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5500">
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <div class="slide1"></div>
+                    </div>
+                    <div class="item">
+                        <div class="slide2"></div>
+                    </div>
+                    <div class="item">
+                        <div class="slide3"></div>
+                    </div>
                 </div>
-                <div class="item">
-                    <div class="slide2"></div>
-                </div>
-                <div class="item">
-                    <div class="slide3"></div>
-                </div>
-            </div><!-- .carousel-inner --> 
-        </div><!-- .carousel --> 
-        <!--end bg-carousel-->  
-        <div class="container carousel-overlay text-center vaslogo">
-            <h2>Växjö</h2>
-            <h1>Spelförening</h1>
-            <!-- <h1 class="shadow">Spelförening</h1> -->
+                <!-- .carousel-inner -->
+            </div>
+            <!-- .carousel -->
+            <!--end bg-carousel-->
+            <div class="container carousel-overlay text-center vaslogo">
+                <h2 class="h2special">Växjö</h2>
+                <h1 class="h1special">Spelförening</h1>
+            </div>
         </div>
-    </div>
-    <div class="row">
-        <!--navigation bar-->
-        <nav class="navbar navbar-default transparent navbar-static-top navbar-z-index" role="navigation" id="navbar-main">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navCollapse">
-                        <span class="sr-only">Toggle Navigation</span>
-                        <span class="fa fa-chevron-down"></span> Menu
-                    </button>
-
+        <!-- navbar -->
+        <div class="row">
+            <!--navigation bar-->
+            <nav class="navbar navbar-default transparent navbar-static-top navbar-z-index" role="navigation" id="navbar-main">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navCollapse">
+                            <span class="sr-only">Toggle Navigation</span>
+                            <span class="fa fa-chevron-down"></span> Menu
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse navbar-right" id="navCollapse">
+                        <ul class="nav navbar-nav">
+                            <li class="active">
+                                <a href="#">Hem</a>
+                            </li>
+                            <li class="dropdown">
+                                    <a class="dropdown-toggle" data-toggle="dropdown">Om Oss<span class="caret"></span></a>
+                                    <ul class="dropdown-menu dropdown-menu-left">
+                                        <li><a href="products.html">Föreningen</a></li>
+                                        <li><a href="weddings.html">Styrelsen</a></li>
+                                        <li><a href="naming.html">Förälder</a></li>
+                                        <li><a href="portraits.html">Student</a></li>
+                                    </ul>
+                                </li>
+                            <li>
+                                <a href="#">Aktiviteter</a>
+                            </li>
+                            <li>
+                                <a href="#">Galleri</a>
+                            </li>
+                            <li>
+                                <a href="#">Kontaktuppgifter</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="collapse navbar-collapse navbar-right" id="navCollapse">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Hem</a></li>
-                        <li><a href="#">Om Oss</a></li>
-                        <li><a href="#">Aktiviteter</a></li>
-                        <li><a href="#">Galleri</a></li>
-                        <li><a href="#">Kontaktuppgifter</a></li>
-                    </ul>
+            </nav>
+            <!--end nav bar-->
+        </div>
+        <!-- main wrapper -->
+        <div class="container-fluid">
+            <!-- Subtitles -->
+            <div class="row">
+                <div class="col-md-6 col-lg-8">
+                    <h2 class="text-center">Senaste Nytt</h2>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <h2>Kommande händelser</h2>
+                    <p>VÄS gör saker. Här är det närmaste schemat</p>
                 </div>
             </div>
-        </nav>
-        <!--end nav bar-->
-    </div>
-    <div class="row">
-        <div class="col-md-6">
-            <div class="fb-page" data-href="https://www.facebook.com/Test-Page-Of-Testing-1920710754846815/" data-tabs="timeline, Community" data-width="500" data-height="100%" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Test-Page-Of-Testing-1920710754846815/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Test-Page-Of-Testing-1920710754846815/" style="overflow: none;">Test Page Of Testing</a></blockquote></div>
-        </div>
-        <div class="col-md-6">
-            <h2>This is another text in another column.</h2>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et repudiandae officiis nisi in itaque ullam ducimus. Quod vel suscipit beatae inventore numquam laboriosam consequuntur hic! Iste aspernatur culpa possimus consequatur?
+            <!-- Contains calendar, styrelsemeeting, content flow -->
+            <div class="row">
+                <div class="col-md-6 col-lg-8">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-6">
+                            <h3>Senaste Styrelsemötet</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, adipisci natus? Quo suscipit
+                                cupiditate vero facere veniam voluptatum, nam quis architecto eos maxime consectetur a dignissimos,
+                                voluptas nulla dolorem provident?</p>
+                            <p>
+                                <em>Lorem ipsum</em>, dolor sit amet consectetur adipisicing elit. Dolorem, ea inventore itaque
+                                id asperiores nulla quia nemo illo illum harum ipsam quod doloremque dicta, maiores qui beatae
+                                nam non corrupti?</p>
+                            <p>Explicabo fugit harum doloribus. Perspiciatis error, odit illo natus amet molestias facere dicta
+                                incidunt alias harum enim et, autem qui dolor aliquid vitae, sapiente eum minus dignissimos
+                                dolorum praesentium? Perferendis.
+                            </p>
+                        </div>
+                        <div class="col-md-6 col-lg-6 content-flow">
+                            <h3>Battle Report 1</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus obcaecati perspiciatis
+                                iure perferendis cumque temporibus aut totam autem suscipit? Vero ut dolorum cupiditate provident!
+                                Atque est consequatur accusantium aliquam cumque.</p>
+                            <p class="read-more">
+                                <a href="#hiddenContent2" data-toggle="collapse" data-target="#hiddenContent2">Read more</a>
+                            </p>
+                            <div id="hiddenContent2" class="collapse">
+                                <p>
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed ullam obcaecati atque veniam laboriosam facilis dignissimos
+                                    perspiciatis magnam aliquid illum dolore veritatis velit cupiditate, id voluptates impedit
+                                    doloremque reprehenderit aperiam!'
+                                </p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo esse recusandae voluptatibus
+                                    dignissimos! Laborum quas officiis doloremque, aspernatur cum debitis necessitatibus.
+                                    Aspernatur facilis voluptatum fugit iste debitis in minus ab?
+                                </p>
+                            </div>
+                            <h3>Battle Report 2</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus obcaecati perspiciatis
+                                iure perferendis cumque temporibus aut totam autem suscipit? Vero ut dolorum cupiditate provident!
+                                Atque est consequatur accusantium aliquam cumque.</p>
+                            <p class="read-more">
+                                <a href="#hiddenContent" data-toggle="collapse" data-target="#hiddenContent">Read more</a>
+                            </p>
+                            <div id="hiddenContent" class="collapse">
+                                <p>
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed ullam obcaecati atque veniam laboriosam facilis dignissimos
+                                    perspiciatis magnam aliquid illum dolore veritatis velit cupiditate, id voluptates impedit
+                                    doloremque reprehenderit aperiam!'
+                                </p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo esse recusandae voluptatibus
+                                    dignissimos! Laborum quas officiis doloremque, aspernatur cum debitis necessitatibus.
+                                    Aspernatur facilis voluptatum fugit iste debitis in minus ab?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Opening hours -->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <ol class="openHours">
+                                        <h4>Vi har öppet:</h4>
+                                        <li>Tisdagar: 17:00-20:00</li>
+                                        <li>Torsdagar: 16:00-18:00</li>
+                                        <li>Lördagar: 11:00-24:00</li>
+                                    </ol>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>Det finns oftast möjlighet att öppna lokalen vid andra tider, ta bara kontakt med någon i vår <a href="#">styrelse.</a>
+                                    </p>
+                                </div>
+                            </div>
 
-
+                        </div>
+                    </div>
+                </div>
+                <div class="hidden-xs col-md-6 col-lg-4">
+                    <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=hgbif4529dnbhmu3l9c5uqqhsg%40group.calendar.google.com&amp;color=%23691426&amp;ctz=Europe%2FStockholm" style="border-width:0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+                </div>
+                <div class="visible-xs">
+                    <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=hgbif4529dnbhmu3l9c5uqqhsg%40group.calendar.google.com&amp;color=%23691426&amp;ctz=Europe%2FStockholm" style="border-width:0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+                </div>
+            </div>
         </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-4">
+                        Växjö Spelförening
+                        <br> Håkan Sjögrens v. 9A
+                        <br> tel-nr, mail-adress
+                    </div>
+                    <div class="col-xs-2 col-xs-offset-6 copyright">
+                        &copy; Robert Sjöblom
+                    </div>
+                </div>
+            </div>
+        </footer>
     </div>
-    <div class="row">
-        <br>
-    </div>
-</div>
-<div class="footer" style="border: 1px solid black;">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente animi maxime suscipit voluptatibus saepe! Quia, incidunt quae? Qui et, saepe aut autem, quia provident voluptate dolores, rem consequuntur exercitationem alias? 
-</div>
 </body>
+
 </html>
